@@ -11,8 +11,8 @@ get_header(); ?>
 			</div><br><br>
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small"><div class="animated bounceIn">FRISTAR</div></h1>
-					<h3>Instalação e Manutenção de Ar Condicionado</h3>
+					<h1 class="small"><div class="animated bounceIn">VitralTec Vidraçaria</div></h1>
+					<h3>Instalação e Manutenção de Vidros em geral</h3>
 				</div>
 			</div>
 		</div>
@@ -22,17 +22,17 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4 anima-a">
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-corretiva.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/servicos-1.jpg"; ?>"/></a>
 					<p>A manutenção corretiva do Ar Condicionado tem a função de fazer todos os tipos de consertos e reparos nos equipamentos de ar condicionado.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4 anima-b">
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-higienizacao.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/servicos-2.jpg"; ?>"/></a>
 					<p>A Higienização e Limpeza do Ar Condicionado é uma prática que vai além da limpeza dos filtros e deve ser realizada periódicamente.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
 				<div class="col-md-4 anima-c">
-					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner-manutencao.jpg"; ?>"/></a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/servicos-3.jpg"; ?>"/></a>
 					<p>Analisamos os projetos de Ar Condicionado de todos os tipos e fazemos a execução da instalação em residências, comércios e indústrias. </p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" class="btn-confira">CONFIRA</a>
 				</div>
@@ -44,20 +44,20 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left anima-h">
-					<h2>FRISTAR</h2>
-					<p class="">A Fristar Ar Condicionado através de trabalho sério, dedicação e atendimento diferenciado, conquistou seu espaço no mercado.<br>
-					Atualmente a Fristar Ar Condicionado é reconhecida por sua excelência na prestação de serviços de instalação de ar condicionado e manutenção de ar condicionado em geral.
+					<h2>Vidraçaria VitralTec</h2>
+					<p>A Vitraltec é especializada na instalação e manutenção de vidros, e é considerada uma das melhores vidraçarias de São Paulo.<br>
+					Na Vidraçaria Vitraltec você encontra: box de vidro, portas de vidro, espelhos modelados, tampo de mesa de vidro, tijolo de vidro, janelas de vidro, vidros laminados, vidros temperados, prateleiras de vidro e vidro comuns.
 					</p>
 					<ul>
-						<li>Manutenção Preventiva</li>
-						<li>Manutenção Corretiva</li>
-						<li>Higienização e Limpeza</li>
-						<li>PMOC</li>
+						<li>Manutenção de vidros</li>
+						<li>Instalação de vidros</li>
+						<li>Vidros Personalizados</li>
+						<li>Vidraçaria em São Paulo</li>
 					</ul>
 					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="btn-confira btn-azul margin-responsivo">CONFIRA</a>
 				</div>
 				<div class="col-md-6 text-left anima-i">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/ar-condicionado.jpg"; ?>"/>
+					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-mesa.jpg"; ?>"/>
 				</div>
 			</div>	
 		</div>	
@@ -72,7 +72,7 @@ get_header(); ?>
 						Rua Capitão Eugênio de Macedo, 353 - Itaim Paulista - São Paulo - SP
 					</p>
 					<p>
-						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900  <strong>Email.: </strong>carolina@fristar.com.br
+						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900  <strong>Email.: </strong>vendas@vitraltec.com.br
 					</p>
 				</div>
 			</div>

@@ -6,21 +6,35 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left">
-					<h1 class="small azul"><div class="animated bounceIn">Sobre a FRISTAR</div></h1>
-					<p>A Fristar Ar Condicionado, foi fundada em setembro de 2015.<br>
-						Foi através de um trabalho sério, dedicado e com um atendimento diferenciado que conquistou seu espaçõ no mercado, ampliando sua carteira de clientes e os fidelizando.</p>
-					<p>Hoje é reconhecida por sua excelência na prestação de serviços pois investe em produtos de alta qualidade, visando sempre inovar e criar novas formas de atender e satisfazer as necessidades de seus clientes, visando o conforto e o bem-estar.</p>
-					<p>Os seus serviços estão direcionados a instalação de ar condicionado e manutenção em geral, com a qualidade e garantia necessária para atender todos os tipos de consumidores, seja industrial ou residencial aonde a ética, honestidade, caráter, profissionalismo e responsabilidade ambiental, fazem parte do nosso cotidiano equacionando um diferencial no mercado de refrigeração e oferecendo o que há de melhor em climatização.</p>
+					<h1 class="small azul"><div class="animated bounceIn">Vidraçaria VitralTec</div></h1>
+					<p>A Vidraçaria Vitraltec conta com uma grande infra-estrutura além de profissionais 
+altamente capacitados que irão desempenhar com total responsabilidade e eficácia seu 
+projeto desde o planejamento até a instalação.
+</p>
+					<p>A Vitraltec é especializada na instalação e manutenção de vidros, e é considerada uma 
+das melhores vidraçarias de São Paulo. <br>
+A Vidraçaria Vitraltec se mantém sempre atualizada nas novas tendências de decoração 
+e arquitetura, tudo para atender a as expectativas e necessidades de seus clientes.</p>
+					<p><strong>Vidraçaria no centro de São Paulo</strong>
+A Vitraltec é uma vidraçaria localizada no centro de São Paulo.
+Contamos com uma grande variedade de produtos e serviços, todos eles realizados sob 
+um rígido controle de qualidade.
+Na Vidraçaria Vitraltec você encontra: box de vidro, portas de vidro, espelhos modelados, 
+tampo de mesa de vidro, tijolos de vidro, janelas de vidro, vidros laminados, vidros 
+temperados, prateleiras de vidro e vidros comuns.
+Também oferecemos todos os tipos de instalação em vidros, como envidraçamento de
+sacadas, vidros personalizados, vidro jateado e também fazemos manutenção de vidros 
+em geral.</p>
 					<ul>
-						<li>Manutenção Preventiva</li>
-						<li>Manutenção Corretiva</li>
-						<li>Higienização e Limpeza</li>
-						<li>PMOC</li>
+						<li>Manutenção de vidros</li>
+						<li>Instalação de vidros</li>
+						<li>Vidros personalizados</li>
+						<li>Vidraçaria em São Paulo</li>
 					</ul>
 					<a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>" class="btn-confira btn-azul">CONTATO</a>				
 				</div>
 				<div class="col-md-6">
-					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/ar-condicionado.jpg"; ?>"/>
+					<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/sobre-mesa.jpg"; ?>"/>
 				</div>
 			</div>	
 		</div>	
@@ -35,7 +49,7 @@ get_header(); ?>
 						Rua Capitão Eugênio de Macedo, 353 - Itaim Paulista - São Paulo - SP
 					</p>
 					<p>
-						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900  <strong>Email.: </strong>carolina@fristar.com.br
+						<strong>Telefone.: </strong>11 2561-5068 | 11 98359-1900  <strong>Email.: </strong>vendas@vitraltec.com.br
 					</p>
 				</div>
 			</div>

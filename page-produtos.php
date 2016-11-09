@@ -30,7 +30,7 @@ get_header(); ?>
 						<article>
 							<?php the_post_thumbnail('', array('class' => "img-responsive e-cinza")); ?>
 							<strong><?php the_title(); ?></strong><br>
-							<a class="btn-confira btn-azul" href="<?php the_permalink(); ?>">Confira</a>
+							<a class="btn-confira btn-azul" href="<?php the_permalink(); ?>">Saiba Mais</a>
 						</article>
 					</div>
 					<?php if($query->current_post == 3): ?>

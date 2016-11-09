@@ -14,7 +14,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						&copy; Copyright <?php echo date('Y') ?> -  Fristar   | <a target="_blank" href="#">Site desenvolvido pelos Marketeiros Digitais.</a>
+						&copy; Copyright <?php echo date('Y') ?> -  VitralTec   | <a target="_blank" href="#">Site desenvolvido pelos Marketeiros Digitais.</a>
 					</div>
 				</div>	
 			</div>	

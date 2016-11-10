@@ -309,6 +309,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         min-height: 153px; }
   #page div#content section#categorias {
     padding-top: 40px; }
+    #page div#content section#categorias strong.titulo {
+      display: block;
+      margin: 20px 0;
+      color: #0077c4; }
   #page div#content section#categorias-detalhe {
     padding-top: 40px; }
     #page div#content section#categorias-detalhe img {

@@ -52,6 +52,7 @@
 							<ul class="dropdown-menu">
 							<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li
 							><li><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></li
+							><li><a href="<?php echo home_url( '/' )."produtos"; ?>">Produtos</a></li
 							><li><a href="<?php echo home_url( '/' )."servicos"; ?>">Serviços</a></li
 							><li><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></li>
 							</ul>								
@@ -59,6 +60,7 @@
 						<div class="menu-header clearfix">
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."contato"; ?>">Contato</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/servicos' ).""; ?>">Serviços</a></div>
+							<div class="menu-op"><a href="<?php echo home_url( '/produtos' ).""; ?>">Produtos</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' )."sobre"; ?>">A Empresa</a></div>
 							<div class="menu-op"><a href="<?php echo home_url( '/' ); ?>">Home</a></div>
 						</div>

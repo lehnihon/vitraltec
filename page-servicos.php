@@ -17,7 +17,7 @@ get_header(); ?>
 
 			$args = array(
 				'post_type' => 'servico',
-				'posts_per_page' => 8,
+				'posts_per_page' => 6,
 			    'orderby' => 'post_date',
 			    'order' => 'DESC',
 			    'paged' => $paged);
@@ -26,14 +26,14 @@ get_header(); ?>
 			if ( $query->have_posts() ): ?>
 				<div class="row">	
 				<?php while ( $query->have_posts() ) : $query->the_post(); ?>
-					<div class="col-md-3">
+					<div class="col-md-4">
 						<article>
 							<?php the_post_thumbnail('', array('class' => "img-responsive e-cinza")); ?>
-							<strong><?php the_title(); ?></strong><br>
+							<strong class="titulo"><?php the_title(); ?></strong>
 							<a class="btn-confira btn-azul" href="<?php the_permalink(); ?>">Confira</a>
 						</article>
 					</div>
-					<?php if($query->current_post == 3): ?>
+					<?php if($query->current_post == 2): ?>
 						</div><br><div class="row">
 					<?php endif; ?>		
 				<?php endwhile; ?>										

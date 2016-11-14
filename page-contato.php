@@ -4,7 +4,7 @@ get_header(); ?>
 <div id="content">
 	<section id="contato">
 		<h1 class="azul small"><div class="animated bounceIn">Contato</div></h1>
-		<h3 class="azul">Entre em contato com a Fristar</h3>
+		<h3 class="azul">Entre em contato com a VitralTec</h3>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 text-left">
@@ -21,7 +21,7 @@ get_header(); ?>
 					<p>
 						11 2561-5068 | 11 98359-1900
 					</p>
-					<p>carolina@fristar.com.br</p>							
+					<p>carolina@vitraltec.com.br</p>							
 					</div>
 				</div>
 			</div>	

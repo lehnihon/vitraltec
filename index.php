@@ -21,21 +21,24 @@ get_header(); ?>
 	<section id="servicos">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 anima-a">
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/servicos-1.jpg"; ?>"/></a>
-					<p>A manutenção corretiva do Ar Condicionado tem a função de fazer todos os tipos de consertos e reparos nos equipamentos de ar condicionado.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-corretiva"; ?>" class="btn-confira">CONFIRA</a>
-				</div>
-				<div class="col-md-4 anima-b">
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/servicos-2.jpg"; ?>"/></a>
-					<p>A Higienização e Limpeza do Ar Condicionado é uma prática que vai além da limpeza dos filtros e deve ser realizada periódicamente.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."manutencao-preventiva"; ?>" class="btn-confira">CONFIRA</a>
-				</div>
-				<div class="col-md-4 anima-c">
-					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" rel="home"><img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/servicos-3.jpg"; ?>"/></a>
-					<p>Analisamos os projetos de Ar Condicionado de todos os tipos e fazemos a execução da instalação em residências, comércios e indústrias. </p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."servico-de-instalacao"; ?>" class="btn-confira">CONFIRA</a>
-				</div>
+			    <?php
+			        $args = array( 'post_type' => array('produto','servico'), 'posts_per_page' => 3, 'orderby' => 'rand' );
+			        $loop = new WP_Query( $args );
+
+			        while ( $loop->have_posts() ) : $loop->the_post(); global $product; 
+			    ?>
+	                <div class="col-md-4 <?php if($query->current_post == 0): echo "anima-a";  endif; if($query->current_post == 1): echo "anima-b";  endif; if($query->current_post == 2): echo "anima-c";  endif;?>">   
+	                    <a href="<?php echo get_permalink( $loop->post->ID ) ?>" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>">
+	                        <?php the_post_thumbnail('', array('class' => "img-responsive e-cinza")); ?>
+	                    </a>
+	                    <h4><?php the_title(); ?></h4>
+	                    <?php the_excerpt(); ?>
+	                    <a href="<?php echo get_permalink( $loop->post->ID ) ?>" class="btn-confira" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>" class="saiba-mais">
+	                    	CONFIRA
+	                    </a>
+	                </div>
+			    <?php endwhile; ?>
+			    <?php wp_reset_query(); ?>
 			</div>
 		</div>		
 	</section>

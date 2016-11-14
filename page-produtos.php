@@ -11,12 +11,12 @@ get_header(); ?>
 <div id="content">
 	<section id="categorias">
 		<div class="container">
-			<h1 class="small">Serviços</h1><br><br>
+			<h1 class="small">Produtos</h1><br><br>
 			<?php 
 			$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 
 			$args = array(
-				'post_type' => 'servico',
+				'post_type' => 'produto',
 				'posts_per_page' => 6,
 			    'orderby' => 'post_date',
 			    'order' => 'DESC',

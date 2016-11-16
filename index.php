@@ -29,7 +29,7 @@ get_header(); ?>
 			    ?>
 	                <div class="col-md-4 <?php if($query->current_post == 0): echo "anima-a";  endif; if($query->current_post == 1): echo "anima-b";  endif; if($query->current_post == 2): echo "anima-c";  endif;?>">   
 	                    <a href="<?php echo get_permalink( $loop->post->ID ) ?>" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>">
-	                        <?php the_post_thumbnail('', array('class' => "img-responsive e-cinza")); ?>
+	                        <?php the_post_thumbnail('home-thumb', array('class' => "img-responsive e-cinza")); ?>
 	                    </a>
 	                    <h4><?php the_title(); ?></h4>
 	                    <?php the_excerpt(); ?>

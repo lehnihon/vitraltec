@@ -26,8 +26,9 @@
 		<header>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-md-offset-8">
-						<span>Atendimento: <strong>11 2561-5068</strong></span>
+					<div class="col-md-6 col-md-offset-6">
+						<span>Atendimento: <strong>11 2887-0327</strong></span> 
+						<span style="margin-left: 10px">WhatsApp.: <strong>11 95340-7221</strong></span>
 						<ul class="redes_sociais_header">
 							<li class="youtube"><a target="_blank" href="#"></a></li>
 							<li class="instagram"><a target="_blank" href="#"></a></li>

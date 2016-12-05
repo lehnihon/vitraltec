@@ -13,14 +13,11 @@ get_header(); ?>
 		<div class="container">
 			<h1 class="small">Produtos</h1><br><br>
 			<?php 
-			$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 
 			$args = array(
 				'post_type' => 'produto',
-				'posts_per_page' => 6,
 			    'orderby' => 'post_date',
-			    'order' => 'DESC',
-			    'paged' => $paged);
+			    'order' => 'DESC');
 			$query = new WP_Query( $args ); 
 
 			if ( $query->have_posts() ): ?>
@@ -33,25 +30,10 @@ get_header(); ?>
 							<a class="btn-confira btn-azul" href="<?php the_permalink(); ?>">Saiba Mais</a>
 						</article>
 					</div>
-					<?php if($query->current_post == 2): ?>
+					<?php if(($query->current_post+1) % 3 == 0 AND $query->current_post != 0): ?>
 						</div><br><div class="row">
 					<?php endif; ?>		
 				<?php endwhile; ?>										
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="paginacao">
-						<?php
-						$big = 999999999; // need an unlikely integer
-						echo paginate_links( array(
-							'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
-							'format' => '?paged=%#%',
-							'current' => max( 1, get_query_var('paged') ),
-							'total' => $query->max_num_pages
-						) );
-						?>
-					</div>
-					</div>
 				</div>
 			<?php endif; ?>
 		</div>

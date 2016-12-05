@@ -13,14 +13,11 @@ get_header(); ?>
 		<div class="container">
 			<h1 class="small">Serviços</h1><br><br>
 			<?php 
-			$paged = ( get_query_var( 'paged' ) ) ? absint( get_query_var( 'paged' ) ) : 1;
 
 			$args = array(
 				'post_type' => 'servico',
-				'posts_per_page' => 6,
 			    'orderby' => 'post_date',
-			    'order' => 'DESC',
-			    'paged' => $paged);
+			    'order' => 'DESC');
 			$query = new WP_Query( $args ); 
 
 			if ( $query->have_posts() ): ?>
@@ -33,7 +30,7 @@ get_header(); ?>
 							<a class="btn-confira btn-azul" href="<?php the_permalink(); ?>">Confira</a>
 						</article>
 					</div>
-					<?php if($query->current_post == 2): ?>
+					<?php if(($query->current_post+1) % 3 == 0 AND $query->current_post != 0): ?>
 						</div><br><div class="row">
 					<?php endif; ?>		
 				<?php endwhile; ?>										
